@@ -114,7 +114,6 @@ CLUSTERS = [
 
 CLUSTERS.each do |c|
   v = K8s::NSWriter.new(c)
-  v.print_to_yaml
   v.save_to_file
 end
 
