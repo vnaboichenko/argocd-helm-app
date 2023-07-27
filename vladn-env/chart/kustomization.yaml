@@ -6,7 +6,7 @@ helmGlobals:
 
 helmCharts:
   - name: helm-guestbook
-    valuesFile: https://raw.githubusercontent.com/vnaboichenko/argocd-example-apps/master/helm-guestbook/dynamic-values-vladn.yaml
+    valuesFile: http://metrics-api-lb.shard-proxy.use.development.k8s.ikarem.io:8000/helm/sandbox.meraki.com/meraki_random_values
 #    valuesInline:
 #      meraki:
 #        region: use
